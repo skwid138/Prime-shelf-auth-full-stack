@@ -1,14 +1,47 @@
-# Angular Complete Branch
-This branch updates `master` to use Angular as the client side library, removes Grunt, but maintains MongoDB as the database.
+# Full Stack with Auth Peer Project 
 
-Requests are made directly to the server and does not have much error-handling. Uses default Passport auth flow and redirects.
+![our shelf](tauShelf.png)
 
-# Express/Passport Lecture Starting File
-Download and run 'npm install' before the lecture as prep. In this lecture, we will build out a user registration page and allow our users to log into our application. Once they are logged in, we will see information returned to us, specific to the user.
+Technologies
+------------
+* Mongo
+* Express
+* Angular
+* Node
+* Passport
+* git
+* github
 
-##Branches
-* `master`: Original lecture code with jQuery, alt static file serving, Grunt, Mongoose/Mongo
-* `angular-complete`: Angular and MongoDB version as shown to Iota cohort.
-* `sql_strategy`: Replaces MongoDB with PostGRES for storage of user data. Maintains bcrypt functionality.
-* `angular-controlled-login-intro`: Introduces Angular as the login handler. All server communication is handled in an Angular Controller and updates the route/page based on success or failure. Intended for an alternate intro lecture to Passport (as seen in angular-complete and sql_strategy). Uses MongoDB.
-* `angular-ctrl-with-routes`: Like `angular-controlled-login-intro` but is built using client-side routing with ngRoute instead of full HTML pages. Uses MongoDB.
+Project Description
+-------------------
+Our client, **Prime Digital Academy: Room 2**, has asked for an app to simulate the behavior of their shelf. That is, a list of items placed on the classroom shelf.
+
+Any visitor to the page can view the shelf, but only logged in users should be able to place objects on the shelf.
+
+This will require some research, design, an implementation. Include a readme.md that includes the names of the group members and your team name/number. As well as any planning/docs. These can be in digital format or even pics of whiteboard/notebook sketches.
+
+Shelf Object
+------------
+Items placed on the shelf should have the following data:
+
+* description
+* placer (user)
+* image url (optional)
+
+Use branching and github effectively. Prioritize your tasks. We are directly modeling a work assignment and part 1 of this assignment is to have an '*EOD Push*' - **End of Day Push** to remote origin master. That is, as you wrap your day's work, merge what works to master and push to github. Incomplete or not-working code can stay on it's own branch and should not be merged to master. This branch can, however, be pushed to github so it is available in remote.
+
+
+Hard Mode
+----------
+* only logged in users can remove objects from the shelf
+* styling
+
+Pro Mode
+--------
+* logged in users can only remove their objects from the shelf
+* show list of users only to logged in users
+
+Super Mode
+----------
+* filter output by user (click on a user to only show items by that user)
+* users can re-order shelf
