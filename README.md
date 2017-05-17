@@ -1,4 +1,4 @@
-# Full Stack with Auth Peer Project 
+# Full Stack with Auth Group Project
 
 ![our shelf](tauShelf.png)
 
@@ -14,7 +14,7 @@ Technologies
 
 Project Description
 -------------------
-Our client, **Prime Digital Academy: Room 2**, has asked for an app to simulate the behavior of their shelf. That is, a list of items placed on the classroom shelf.
+Our client, **Prime Digital Academy: Room 1**, has asked for an app to simulate the behavior of their shelf. That is, a list of items placed on the classroom shelf.
 
 Any visitor to the page can view the shelf, but only logged in users should be able to place objects on the shelf.
 
