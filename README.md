@@ -28,8 +28,7 @@ Items placed on the shelf should have the following data:
 * placer (user)
 * image url (optional)
 
-Use branching and github effectively. Prioritize your tasks. We are directly modeling a work assignment and part 1 of this assignment is to have an '*EOD Push*' - **End of Day Push** to remote origin master. That is, as you wrap your day's work, merge what works to master and push to github. Incomplete or not-working code can stay on it's own branch and should not be merged to master. This branch can, however, be pushed to github so it is available in remote.
-
+You're going to have to think about how/where to store this data. Recall that each item will have to be associated with a user!
 
 Hard Mode
 ----------
