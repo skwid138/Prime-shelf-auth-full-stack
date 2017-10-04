@@ -20,6 +20,8 @@ Any visitor to the page can view the shelf, but only logged in users should be a
 
 This will require some research, design, an implementation. Include a readme.md that includes the names of the group members and your team name/number. As well as any planning/docs. These can be in digital format or even pics of whiteboard/notebook sketches.
 
+You will not be starting from scratch for this assignment. **Fork and clone the repo from the Passport lecture** to use as starting code for this assignment.
+
 Shelf Object
 ------------
 Items placed on the shelf should have the following data:
