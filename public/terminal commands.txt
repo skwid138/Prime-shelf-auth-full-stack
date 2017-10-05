@@ -1,0 +1,4 @@
+npm init
+
+npm install express mongoose body-parser bcrypt passport passport-local dotenv --save
+
